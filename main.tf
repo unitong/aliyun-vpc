@@ -17,4 +17,3 @@ resource "alicloud_vswitch" "default" {
   zone_id      = data.alicloud_zones.default.zones[0].id
   vswitch_name = var.name
 }
-}
