@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: OpenAPI schema for template aliyun-vpc
+components:
+  schemas:
+    variables:
+      type: object
+      properties:
+        name:
+          title: Name
+          type: string
+          default: testing
+          x-walrus-ui:
+            group: Basic
+            order: 1
+      x-walrus-ui:
+        groupOrder:
+        - Basic
